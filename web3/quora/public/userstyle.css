@@ -1,0 +1,43 @@
+body{
+    background-color: #333333;
+}
+table{
+    margin-top: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    text-align: justify;
+    font-family: cursive;
+    color:white;
+    font-size:20px;
+    
+    
+    
+}
+th{
+    padding: 30px;
+    border:5px solid grey;
+    border-radius: 50%;
+    text-align: center;
+    background-color: grey;
+    
+}
+td{
+    padding:30px;
+    text-align: center;
+    
+
+    
+}
+
+img{
+    border-radius: 50%;
+}
+.a{
+  text-decoration: none;
+  color:white;  
+  border:10px solid blue;
+  font-size:25px;
+  background-color:blue;
+  border-radius:50%;
+}

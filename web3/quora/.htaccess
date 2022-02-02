@@ -1,0 +1,11 @@
+# letiltom a mappa tartatlmának listázását
+Options -Indexes
+
+# A mappa kezdőoldala 
+DirectoryIndex index.php
+
+# url felülírási rész 
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php/$1 

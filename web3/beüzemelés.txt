@@ -1,0 +1,16 @@
+Adatbázis létrehozása a localhost-on.
+
+Töltsd le az xampp-ot. 
+Indítsd el rendszergazda üzemmódban az Apache és MySql szolgáltatásokat
+A PhPMyAdmin felületen hozz létre egy adatbázist "q" néven.
+Válaszd ki ezt az adatbázist.
+Majd az SQL fülre kattintva másold be az adatbázis.sql file tartalmát.
+Ezt követően menj az indítás gombra.
+És készen van az adatbázisod
+Másold be a quora mappa tartalmát az XAMPP/htdocs mappába
+
+
+Weboldal elérése
+
+
+A weboldalt a localhost/quora/Posts/ linken érheted el.
