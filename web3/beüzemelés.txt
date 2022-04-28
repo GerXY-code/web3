@@ -1,3 +1,6 @@
+FIGYELEM!!!!
+Az oldal csak és kizárólag PHP 8-as nyelvig működik jelenleg!!!
+
 Adatbázis létrehozása a localhost-on.
 
 Töltsd le az xampp-ot. 
