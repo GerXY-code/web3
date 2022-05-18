@@ -35,9 +35,12 @@
             <span>Vezetéknév: <?=$r->surename?></span>
             </div>
             
-            
+            <?php if(isset($_SESSION['username'])):?>
+            <?php if($r->auth==1 || $_SESSION['username']==$r->username):?>
             <a href="<?php echo base_url('Users/getProfileForModify/'.$r->user_id)?>"class="btn btn-lg btn-primary bi-pen"></a>
             <a href='<?= base_url("Users/deleteProfile/".$r->user_id); ?>' class="btn btn-lg btn-danger bi-trash"></a>
+            <?php endif;?>
+            <?php endif;?>
         <?php endforeach;?>
        </div>
 <?php endif; ?>

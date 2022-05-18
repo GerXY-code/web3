@@ -6,7 +6,7 @@
        
         <a href="<?php echo site_url('Posts/index')?>">Vissza a főoldalra</a>
         <br>
-    <h1 class="msg">Kérdés hozzáadása</h1>
+    
     <div class="wrapper">
         <br>
         <br>

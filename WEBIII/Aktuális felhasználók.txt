@@ -1,0 +1,5 @@
+Felh.név                 |             Jelszó            |            auth
+
+Admin				   			jelszó				superuser
+
+G.Guest1999					   kokomanci23AA!				normaluser

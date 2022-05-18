@@ -12,11 +12,15 @@
         #answer{
             padding:5%;
         }
+        img{
+            border-radius: 50%;
+        }
     </style>
 </head>
 
 <body>
     <a href="<?php echo site_url('Posts/index'); ?>" class="btn btn-lg btn-info">Vissza a főoldalra</a>
+    
 <?php if($replies == null || empty($replies)):?>
 <p>Sanjnos még nem érkezett egyetlen válasz sem erre a kérdésre</p>
 <?php else: ?>
@@ -31,7 +35,7 @@
                 <span><?=$r->reply_added?></span>
                 <br> 
              <?php if(!empty($_SESSION['username']) && $_SESSION['auth'] == 1):?>
-            <a href='<?= base_url("Posts/deleteQuoraReply/".$r->reply_id); ?>' class="btn btn-bi bi-trash" style="background-color:red"></a>
+            <a href='<?= base_url("Posts/deleteQuoraReply/".$r->reply_id); ?>' class="btn btn-danger btn-bi bi-trash" style="background-color:red"></a>
             <?php endif;?>
              <?php if(!empty($_SESSION['username']) && $_SESSION['auth'] !=1 && $_SESSION['username'] == $r->reply_owner):?>        
             <a href='<?= base_url("Posts/deleteQuoraReply/".$r->reply_id); ?>' class="btn btn-danger btn-bi bi-trash"></a>

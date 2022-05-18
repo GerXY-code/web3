@@ -56,6 +56,8 @@
             <br>
             <div class="card-footer">
                <a href='<?= base_url("Posts/getReply/".$p->post_id); ?>' class="btn btn-optional btn-bi bi-chat"></a>
+               
+             
             <?php if(!empty($_SESSION['username'])):?>        
             <a href='<?= base_url("Posts/addReply/".$p->post_id); ?>' class="btn btn-primary btn-bi bi-reply"></a>
              <?php endif;?>
